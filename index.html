@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tech Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <!-- Link: <https://api.unsplash.com/search/photos?page=1&query=office>; rel="first", <https://api.unsplash.com/search/photos?page=1&query=office>; rel="prev", <https://api.unsplash.com/search/photos?page=3&query=office>; rel="last", <https://api.unsplash.com/search/photos?page=3&query=office>; rel="next" -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="greeting-overlay">
+        <h5 class="date" id="date"></h5>
+        <h1 id="time"></h1>
+
+        <div class="get-name" id="get-name">
+            <h2>What is your name?</h2>
+            <form action="">
+                <input class="name" type="text">
+            </form>
+        </div>
+
+        <h2 class="greeting">Hello <span id="user"></span></h2>
+
+        <div class="dashboard">
+            <h3>Dashboard</h3>
+        </div>
+
+        <div class="dashboard-panel">
+            <div>
+                <h1>Case Count</h3>
+
+                    <div class="case-temps">
+
+                        <div class="tech-case-temp">
+                            <h2 class="count-title">Tech</h4>
+                                <p class="tech-case-count">236</p>
+                        </div>
+
+                        <div class="core-case-temp">
+                            <h2 class="count-title">Core</h2>
+                            <p class="core-case-count">402</p>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <h1>Trends</h1>
+                    </div>
+                    <div class="trend-chart">
+                    </div>
+            </div>
+
+            <div class="status-page">
+                <h1>Status Page</h1>
+                <div class="status-components">
+
+                </div>
+                <div class="past-incidents">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="todo">
+            <h3>To Do</h3>
+
+        </div>
+
+        <div class="todo-panel">
+            <h1>To Do</h1>
+            <div class="todo-list"></div>
+            <h1>Notes</h1>
+            <div class="notes"></div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+html,
+body {
+    height: 100%;
+    font-family: National, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1520190282873-afe1285c9a2a");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0;
+
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+}
+
+.greeting-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get-name {
+    display: flex;
+}
+
+input {
+    width: 15em;
+    background: 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    outline-style: none;
+}
+
+.dashboard {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0px 0px 0px 15px;
+}
+
+.dashboard h3:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.get-name {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dashboard-panel {
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    padding: 15px;
+    margin: 5px 0 0 5px;
+    border-radius: 3px;
+    height: calc(100% - 90px);
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+}
+
+.dashboard-panel h1,
+.todo-panel h1 {
+    color: #003C64;
+    font-size: 18px;
+    padding: 15px 0 5px 15px;
+}
+
+.case-temps {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-case-temp {
+    background-color: #A6EA95;
+    width: 191px;
+    height: 93px;
+    margin: 15px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.core-case-temp {
+    background-color: #EA9595;
+    width: 191px;
+    height: 93px;
+    margin: 15px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tech-case-temp h2,
+.core-case-temp h2 {
+    color: #003C64;
+    font-size: 14px;
+    margin: 15px;
+}
+
+.tech-case-temp p,
+.core-case-temp p {
+    font-size: 64px;
+    margin: 15px;
+    color: white;
+}
+
+.trend-chart {
+    background-image: url("images/7day.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: white; */
+    width: 425px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 3px;
+}
+
+.status-components {
+    background-color: white;
+    width: 408px;
+    height: 87px;
+    margin: 15px auto;
+    border-radius: 3px;
+}
+
+.past-incidents {
+    background-color: white;
+    width: 408px;
+    height: 600px;
+    margin: 15px auto;
+    border-radius: 3px;
+}
+
+.todo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0px 15px 0px 0px;
+}
+
+.todo h3:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.todo-panel {
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    padding: 15px;
+    margin: 5px 5px 0 0;
+    border-radius: 3px;
+    height: calc(100% - 90px);
+    top: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+}
+
+.todo-list {
+    width: 455px;
+    height: 50%;
+
+}
+
+.notes {
+    height: 50%;
+}
+
+h1,
+h2 {
+    color: white;
+    font-size: 180px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px;
+}
+
+h5 {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 24px;
+    margin: 0;
+
+}
